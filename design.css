@@ -181,7 +181,7 @@
   #fb img{
     height: 25px;
     width: 25px;
-    transform: translateX(-8px);
+    transform: translate(-11px,-1px);
   }
   #insta img{
     height: 35px;
@@ -207,6 +207,10 @@
   }
   /* Mobile Responsive */
   @media (max-width: 600px) {
+
+    html,body{
+        overflow-x: hidden;
+    }
 
     nav {
       flex-direction: column;
@@ -326,7 +330,7 @@
       #fb img{
         height: 25px;
         width: 25px;
-        transform: translateX(-8px);
+        transform: translate(-11px,-2px);
       }
       #insta img{
         height: 35px;
@@ -351,6 +355,3 @@
         color: rgb(201, 180, 60);
       }
   }
-  
-  
-  
